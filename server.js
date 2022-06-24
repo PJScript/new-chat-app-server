@@ -20,8 +20,8 @@ app.use(express.json({
   }))
 app.use(cors({
      methods: ['GET', 'POST'],
-    // origin:'http://rudydy.xyz',
-    origin:'http://localhost:3000',
+    origin:'http://rudydy.xyz',
+    // origin:'http://localhost:3000',
     credentials: true,
 }))
 
